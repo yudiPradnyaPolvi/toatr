@@ -20,13 +20,12 @@ function App() {
   return (
     <>
       <Header />
-      <Swiper />
       <Hero />
-      <Card />
 
+      <Card />
+      <Swiper />
       <Reviews />
       <Reasons />
-
       <Footer />
     </>
   );

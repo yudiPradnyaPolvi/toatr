@@ -1,13 +1,14 @@
 @use '../../index.scss' as *;
-.container{
+.ReasonsContainer{
   @extend .flex-row;
   gap: 10px;
   justify-content: center;
   padding-top: 20px;
+  // background-image: url("/public/pemandangan.jpeg");
 }
 .image{
   display: flex;
-  
+
 }
 .imgContent{
   display: flex;
@@ -34,4 +35,14 @@
   align-self: center;
   padding-top: 0px;
  
+}
+.buttonContact{
+  width: 25%;
+  height: 50px;
+  font-size: medium;
+  border-radius: 10px;
+  background-color: $light-grey;
+ margin: 10px;
+  gap: 20px;
+  margin-top: 30px;
 }

@@ -1,7 +1,12 @@
 @use '../../index.scss' as *;
-.container{
+.content{
   display: flex;
   gap: 20px;
+}
+.title{
+  @extend .flex-col;
+  margin-bottom: 10px;
+  font-style: bold;
 }
 .card{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);

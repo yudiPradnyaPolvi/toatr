@@ -1,6 +1,7 @@
 @use '../../index.scss' as *;
 .hero {
   padding: 90px 90px;
+  background-image: url("/public/pemandangan1.jpeg");
 
   .heroContainer {
     @extend .flex-col;

@@ -1,56 +1,170 @@
 import React from "react";
 import styles from "./Trip.module.scss";
 
-
 function Trips() {
   return (
-
     <div className={styles.container}>
       <div className={styles.title}>
-        <h1>Certificates</h1>
+        <h1> Title </h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
       </div>
-      <div className={styles.certifContainer}>
-        <div className={styles.contentContainer}>
-          <div className={styles.content}>
-            <div className={styles.certifTitle}>
-              <h3>Backend</h3>
-            </div>
+      <div className={styles.content}>
+        <div className={styles.card}>
+          <img src="kitten.jpeg"></img>
 
-            <div className={styles.certifInfo}>
-              <p>
-                Learning backend from basic, built api, and deploy to server.
-              </p>
+          <div className={styles.cardContent}>
+            <div className={styles.cardTitle}>
+              <h2>Hello</h2>
+              <div className={styles.cardDescription}>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+              <div className="card-button">
+                <button className={styles.cardButton}>Read More</button>
+              </div>
             </div>
           </div>
         </div>
+        <div className={styles.card}>
+          <img src="kitten.jpeg"></img>
 
-        <div className={styles.contentContainer}>
-          <div className={styles.content}>
-            <div className={styles.certifTitle}>
-              <h3>Sql Basic</h3>
-            </div>
-            <div className={styles.certifFrom}>
-              <h4>MySkill</h4>
-            </div>
-            <div className={styles.certifInfo}>
-              <p>Learning how to use mysql.</p>
+          <div className={styles.cardContent}>
+            <div className={styles.cardTitle}>
+              <h2>Hello</h2>
+              <div className={styles.cardDescription}>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+              <div className="card-button">
+                <button className={styles.cardButton}>Read More</button>
+              </div>
             </div>
           </div>
         </div>
+        <div className={styles.card}>
+          <img src="kitten.jpeg"></img>
 
-        <div className={styles.contentContainer}>
-          <div className={styles.content}>
-            <div className={styles.certifTitle}>
-              <h3>Python 101 for Data Science </h3>
+          <div className={styles.cardContent}>
+            <div className={styles.cardTitle}>
+              <h2>Hello</h2>
+              <div className={styles.cardDescription}>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+              <div className={styles.buttonContainer}>
+                <button className={styles.cardButton}>Read More</button>
+              </div>
             </div>
-            <div className={styles.certifFrom}>
-              <h4>Cognitive Class.ai</h4>
+          </div>
+        </div>
+        <div className={styles.card}>
+          <img src="kitten.jpeg"></img>
+
+          <div className={styles.cardContent}>
+            <div className={styles.cardTitle}>
+              <h2>Hello</h2>
+              <div className={styles.cardDescription}>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+              <div className="card-button">
+                <button className={styles.cardButton}>Read More</button>
+              </div>
             </div>
-            <div className={styles.certifInfo}>
-              <p>
-                Learning basic python, manipulation data use python and basic
-                data science.
-              </p>
+          </div>
+        </div>
+        <div className={styles.card}>
+          <img src="kitten.jpeg"></img>
+
+          <div className={styles.cardContent}>
+            <div className={styles.cardTitle}>
+              <h2>Hello</h2>
+              <div className={styles.cardDescription}>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+              <div className="card-button">
+                <button className={styles.cardButton}>Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.card}>
+          <img src="kitten.jpeg"></img>
+
+          <div className={styles.cardContent}>
+            <div className={styles.cardTitle}>
+              <h2>Hello</h2>
+              <div className={styles.cardDescription}>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+              <div className="card-button">
+                <button className={styles.cardButton}>Read More</button>
+              </div>
             </div>
           </div>
         </div>

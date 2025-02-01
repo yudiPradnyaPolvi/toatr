@@ -15,9 +15,16 @@
   width: 25%;
   @extend .flex-col;
   align-self: center;
-  gap: 0;
+  // gap: 0;
   padding-left:10px ;
+  margin: 0px;
 }
+h3{
+  display: flex;
+  align-self: center;
+  margin: 0px;
+}
+
 .card{
   background-color: white;
   width: 25%;
@@ -28,13 +35,17 @@
 .title{
   @extend .flex-row;
   justify-content: start;
-  // // align-self: center;
-  // align-self: self-start;
+ 
 
 }
 .name{
   display: flex;
   align-self: center;
+}
+p{
+  display: flex;
+  align-self: center;
+  margin: 0px;
 }
 .reviewer{
   max-width: 50px;

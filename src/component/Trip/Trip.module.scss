@@ -1,41 +1,57 @@
 @use '../../index.scss' as *;
-
 .container{
-    @extend .flex-col;
-    padding-top: 80px;
+  @extend .flex-col
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 2000px;
 }
 
-.title {
-    display: flex;
-    justify-content: center;
-    
- 
+.card {
+  flex: 1 1 calc(33.333% - 20px); // 3 per row with gap accounted
+  max-width: calc(33.333% - 20px);
+}
+.title{
+  @extend .flex-col;
+  margin-bottom: 10px;
+  font-style: bold;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 35%;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  
+}
+img{
+  padding-top: 20px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.cardButton:hover{ 
+  color: white;
+  background-color: black;
+}
+.cardSubtitle{
+  margin-bottom: 2px
+}
+.cardDescription{
+  display: flex;
+  padding: 10px;
+  text-align: justify;
 }
 
-.contentContainer{
-    @extend .flex-row;
-    gap: 30px;
-    padding: 20px 80px 30px 150px;
+.cardButton{
+  width:70%;
+  height: 50px;
+  background-color: blue;
+  color: white;
+  font-size: medium;
+  border-radius: 10px;
+  
 }
-.content{
-    text-align: justify;
-    padding-right:  80px;
-}
-@media screen and (min-width: 1024px) {
-    .experience {
-      padding: 90px 250px;
-    }
-  }
-  
-  @media screen and (min-width: 1400px) {
-    .experience {
-      padding: 90px 400px;
-    }
-  }
-  
-  @media screen and (max-width: 640px) {
-    .experience {
-      padding: 90px 30px;
-    }
-  }
-  
