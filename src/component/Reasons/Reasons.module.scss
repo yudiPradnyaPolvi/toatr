@@ -1,0 +1,37 @@
+@use '../../index.scss' as *;
+.container{
+  @extend .flex-row;
+  gap: 10px;
+  justify-content: center;
+  padding-top: 20px;
+}
+.image{
+  display: flex;
+  
+}
+.imgContent{
+  display: flex;
+  align-self: center;
+  max-width: 100%;
+
+  padding-left: 10px;
+
+  // align-items: center;
+}
+.content{
+  @extend .flex-col;
+  padding-left: 20px;
+  // gap: 0;
+}
+.contact{
+  @extend .flex-row;
+  gap:10px;
+}
+.imgcontact{
+  max-width: 30px;
+  max-height: 30px;
+  display: flex;
+  align-self: center;
+  padding-top: 0px;
+ 
+}
