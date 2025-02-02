@@ -10,6 +10,7 @@ import Swiper from "./component/Swiper/Swiper";
 import Card from "./component/Card/Card";
 import Reviews from "./component/Review Tour/Review";
 import Reasons from "./component/Reasons/Reasons";
+import Choose from "./component/Choose/Choose";
 // import Trip from "./component/Trip/Trip";
 // import About from "./component/About/About";
 // import { Outlet } from "react-router-dom";
@@ -23,6 +24,7 @@ function App() {
       <Hero />
 
       <Card />
+      <Choose />
       <Swiper />
       <Reviews />
       <Reasons />

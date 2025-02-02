@@ -1,0 +1,28 @@
+@use '../../index.scss' as *;
+
+.container{
+    @extend .flex-col;
+    background-color: rgb(142,195,179);
+    margin-bottom: 10px;
+    
+}
+.contentContainer{
+    @extend .flex-row;
+}
+.content{
+    @extend .flex-col;
+    padding: 20px;
+    gap: 10px;
+}
+.contentTitle{
+    display: flex;
+    align-self: center;
+    font-weight: bold;
+}
+.contentDesc{
+    color: black;
+    font-weight: bold;
+}
+p{
+    color: black;
+}
