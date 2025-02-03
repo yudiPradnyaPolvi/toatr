@@ -7,6 +7,13 @@ const Choose = () => {
       </div>
       <div className={styles.contentContainer}>
         <div className={styles.content}>
+          <div className={styles.containerImg}>
+            <img
+              className={styles.contentImg}
+              src="/public/diri.jpg"
+              alt="avatar"
+            ></img>
+          </div>
           <div className={styles.contentTitle}>
             <h3>Bali</h3>
           </div>
@@ -18,6 +25,13 @@ const Choose = () => {
           </div>
         </div>
         <div className={styles.content}>
+          <div className={styles.containerImg}>
+            <img
+              className={styles.contentImg}
+              src="/public/diri.jpg"
+              alt="avatar"
+            ></img>
+          </div>
           <div className={styles.contentTitle}>
             <h3>Legal</h3>
           </div>
@@ -29,6 +43,13 @@ const Choose = () => {
           </div>
         </div>
         <div className={styles.content}>
+          <div className={styles.containerImg}>
+            <img
+              className={styles.contentImg}
+              src="/public/diri.jpg"
+              alt="avatar"
+            ></img>
+          </div>
           <div className={styles.contentTitle}>
             <h3>Unleash your Bali fun!</h3>
           </div>
@@ -40,6 +61,13 @@ const Choose = () => {
           </div>
         </div>
         <div className={styles.content}>
+          <div className={styles.containerImg}>
+            <img
+              className={styles.contentImg}
+              src="/public/diri.jpg"
+              alt="avatar"
+            ></img>
+          </div>
           <div className={styles.contentTitle}>
             <h3>Escape the ordinary</h3>
           </div>

@@ -3,25 +3,66 @@
 .container{
     @extend .flex-col;
     padding-top: 80px;
-}
-
-.title {
-    display: flex;
-    justify-content: center;
-    
- 
-}
-
-.contentContainer{
-    @extend .flex-row;
-    gap: 30px;
-    padding: 20px 80px 30px 150px;
+    gap: 20px;
+    margin-bottom: 50px;
 }
 .content{
-    text-align: justify;
-    padding-right:  80px;
+   @extend .flex-row;
+    gap: 20px;
+    margin-bottom: 50px;
 }
-@media screen and (min-width: 1024px) {
+.aboutContent{
+  @extend .flex-col;
+  text-align: left;
+  max-width: 50%;
+}
+.aboutTitle h4{
+  color: rgb(14, 141, 99);
+  font-size: 22px;
+}
+.aboutTitle h2{
+  font-size: 52px;
+}
+.aboutImg{
+  align-content: center;
+}
+.imgContents{
+  height: 300px;
+  width: 500px;
+}
+
+.aboutDesc{
+  @extend .flex-col;
+  gap: 20px;
+}
+.contactButton:hover{ 
+  color: white;
+  background-color: black;
+}
+.contactButton{
+  width: 25%;
+  height: 50px;
+  font-size: medium;
+  border-radius: 10px;
+  background-color: blue;
+  color: $light-grey;
+ margin: 10px;
+  gap: 20px;
+  margin-top: 30px;
+}
+.contact{
+  @extend .flex-row;
+  gap:10px;
+}
+.imgcontact{
+  max-width: 30px;
+  max-height: 30px;
+  display: flex;
+  align-self: center;
+  padding-top: 0px;
+ 
+}
+  @media screen and (min-width: 1024px) {
     .experience {
       padding: 90px 250px;
     }
@@ -38,4 +79,4 @@
       padding: 90px 30px;
     }
   }
-  
+
