@@ -11,11 +11,9 @@ const CustomCard = () => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>
-        <h1> Title </h1>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-        </p>
+        <h3>Popular Trips</h3>
+        <h1> Explore Popular Trips </h1>
+        <p>Get started with handpicked top rated trips.</p>
       </div>
       <div className={styles.content}>
         <div className={styles.card}>
@@ -23,7 +21,7 @@ const CustomCard = () => {
 
           <div className={styles.cardContent}>
             <div className={styles.cardTitle}>
-              <h2>Hello</h2>
+              <h2>Nusa Penida Tour: Mix East & West Area</h2>
               <div className={styles.cardDescription}>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
@@ -49,7 +47,7 @@ const CustomCard = () => {
 
           <div className={styles.cardContent}>
             <div className={styles.cardTitle}>
-              <h2>Hello</h2>
+              <h2>Swim with Dolphin & Snorkeling at Lovina</h2>
               <div className={styles.cardDescription}>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
