@@ -21,12 +21,10 @@ const Reasons = () => {
             <img className={styles.imgcontact} src="/public/diri.jpg"></img>
             <p>taman jimbaran</p>
           </div>
+          <div className={styles.btnContainer}>
+            <button className={styles.buttonContact}>Contact Us</button>
+          </div>
         </div>
-      </div>
-      <div>
-        <button className={styles.buttonContact}>
-          Contact Us
-        </button>
       </div>
     </div>
   );

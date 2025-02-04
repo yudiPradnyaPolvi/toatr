@@ -28,6 +28,9 @@
     text-decoration: none;
     color: $dark-grey;
   }
+  .logo{
+    max-width: 100px;
+  }
 
   a:after {
     display: block;

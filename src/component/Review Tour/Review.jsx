@@ -7,10 +7,7 @@ const Review = () => {
         <div className={styles.reviews}>
           <h3>EXCELLENT</h3>
           <img className={styles.star} src="/public/five star.png"></img>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </p>
+          <p>Based on 140 reviews</p>
         </div>
         <div className={styles.card}>
           <div className={styles.title}>
@@ -26,10 +23,8 @@ const Review = () => {
           </div>
           <div className={styles.description}>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it dto make a type specimen book.
+              I had the most magical experience of my life in bali. I have been
+              to many places, but BALI, I will never forget.
             </p>
           </div>
         </div>
@@ -47,10 +42,8 @@ const Review = () => {
           </div>
           <div className={styles.description}>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it dto make a type specimen book.
+              From the first moment that Nyoman picked us up at the airport we
+              felt comfortable.
             </p>
           </div>
         </div>
@@ -68,10 +61,10 @@ const Review = () => {
           </div>
           <div className={styles.description}>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it dto make a type specimen book.
+              Kami sekeluarga merasa sangat senang mengikuti program tour ini.
+              Dengan mengikuti program ini, membuat liburan saya lebih
+              terstruktur untuk tempat-tempat apa saja yang harus di kunjungi.
+              Terima kasih utk momen yg tak terlupakan ini
             </p>
           </div>
         </div>

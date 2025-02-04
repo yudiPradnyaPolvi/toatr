@@ -53,26 +53,17 @@ const Hero = () => {
           className={styles.descriptionContainer}
         >
           <div className={styles.descriptionWrapper}>
-            <p className={styles.textDescription}>Welcome!</p>
-            <h1 className={styles.titleDescription}>I'm Developer</h1>
+            <p className={styles.textDescription}>Hello!</p>
+            <h1 className={styles.titleDescription}>
+              Your Bali Holiday Has Begun
+            </h1>
             <p className={styles.textDescription}>
-              My Name is Pradnya, I'm a full stack web developer, Iot Developer,
-              and Robotic Developer.
+              Grab your stuff and let’s get lost.
             </p>
-          </div>
-          <div className={styles.locationContainer}>
-            {/* <div className={styles.iconContainer}>
-              <MapPinIcon className={styles.locationIcon} />
-              <div className={styles.dot}></div>
-            </div> */}
-            <div className={styles.textContainer}>
-              <p className={styles.locationText}>Bali, Indonesia</p>
-              <p className={styles.locationText}>Available for new projects</p>
-            </div>
           </div>
           <div className={styles.btnWrapper}>
             <a href="/Contact">
-              <button className={styles.btnLearn}>Hire Me! </button>
+              <button className={styles.btnLearn}>Order Now!</button>
             </a>
             <link rel="stylesheet" href="contact" />
           </div>

@@ -54,6 +54,7 @@
   }
 
   .titleDescription {
+    @extend .flex-col;
     color: white;
     font-size: 60px;
     font-style: normal;
@@ -61,8 +62,10 @@
     line-height: 72px; /* 120% */
     letter-spacing: -1.2px;
     margin: 0;
-    display: flex;
-    justify-content: flex-start;
+    text-align: left;
+    // display: flex;
+    // align-self: self-start;
+    // justify-content: flex-start;
   }
 
   .textDescription {
@@ -125,10 +128,19 @@
     display: flex;
     justify-content: start;
     gap: 10px;
-    margin-top: 48px;
+  margin-top: 48px;
     .btnLearn{
         background-color: orange;
+        border-radius: 10px;
+        width: 250px;
+        height: 50px;
+        font-size: 28px;
     }
+  }
+  .btnLearn:hover{
+    color: white;
+    background-color: $donker-blue;
+    // color: $donker-blue;
   }
 
   @media screen and (min-width: 1024px) {

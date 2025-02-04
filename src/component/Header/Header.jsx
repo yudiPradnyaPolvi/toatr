@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <header className={styles.header}>
         <div className={styles.imgContainer}>
-          <img src="/logo.png" alt="logo" />
+          <img className={styles.logo} src="/logo.png" alt="logo" />
         </div>
         <div className={styles.menuContainer}>
           <div className={styles.listMenuContainer}>

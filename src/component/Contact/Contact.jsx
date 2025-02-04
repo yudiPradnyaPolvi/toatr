@@ -39,6 +39,9 @@ function Contact() {
             <img className={styles.imgcontact} src="/public/diri.jpg"></img>
             <p>taman jimbaran</p>
           </div>
+          <div className={styles.contactButtonContainer}>
+            <button className={styles.contactButton}>Contact Us</button>
+          </div>
         </div>
         <div className={styles.aboutImg}>
           <img
@@ -47,9 +50,6 @@ function Contact() {
             alt="logo"
           ></img>
         </div>
-      </div>
-      <div className={styles.contactButtonContainer}>
-        <button className={styles.contactButton}>Contact Us</button>
       </div>
     </div>
   );

@@ -19,8 +19,8 @@ const Choose = () => {
           </div>
           <div className={styles.contentDesc}>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Beaches that beckon, adventures that thrill, and smiles that last
+              a lifetime. Fun with Fun Bali Holiday is guaranteed!
             </p>
           </div>
         </div>
@@ -37,8 +37,8 @@ const Choose = () => {
           </div>
           <div className={styles.contentDesc}>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Discover hidden adventures, experience local charm, and create
+              unforgettable memories. Fun Bali Holiday makes it budget-friendly.
             </p>
           </div>
         </div>
