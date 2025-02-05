@@ -86,8 +86,10 @@ const BaturTrip = () => {
       </div>
 
       <div className={styles.cards}>
-        <h2>Title</h2>
-        <p>sdadaa</p>
+        <h2>Serahkan semua rencana liburan mu bersama kami</h2>
+        <img className={styles.logo} src="/public/logo.png"></img>
+        <p>Partner Terpecaya Untuk Liburan Mu Selama di Bali</p>
+        <button className={styles.btnOrder}>Order Now!</button>
       </div>
     </div>
   );
