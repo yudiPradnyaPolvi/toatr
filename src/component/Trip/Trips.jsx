@@ -52,7 +52,9 @@ function Trips() {
                 <p>Rp. 1.500.000 ($ 100) / Person</p>
               </div>
               <div className="card-button">
-                <button className={styles.cardButton}>Read More</button>
+                <a href="../Content_Trip/NusapenidaTrip">
+                  <button className={styles.cardButton}>Read More</button>
+                </a>
               </div>
             </div>
           </div>
@@ -100,7 +102,9 @@ function Trips() {
                 <p>Rp. 1.500.000 ($ 100) / Person</p>
               </div>
               <div className="card-button">
-                <button className={styles.cardButton}>Read More</button>
+                <a href="../Content_Trip/LovinaTrip">
+                  <button className={styles.cardButton}>Read More</button>
+                </a>
               </div>
             </div>
           </div>
@@ -148,7 +152,9 @@ function Trips() {
                 <p>Rp. 1.500.000 ($ 100) / Person</p>
               </div>
               <div className={styles.buttonContainer}>
-                <button className={styles.cardButton}>Read More</button>
+                <a href="../Content_Trip/WaterfallTrip">
+                  <button className={styles.cardButton}>Read More</button>
+                </a>
               </div>
             </div>
           </div>
@@ -197,7 +203,9 @@ function Trips() {
                 <p>Rp. 1.500.000 ($ 100) / Person</p>
               </div>
               <div className="card-button">
-                <button className={styles.cardButton}>Read More</button>
+                <a href="../Content_Trip/TanjungbenoaTrip">
+                  <button className={styles.cardButton}>Read More</button>
+                </a>
               </div>
             </div>
           </div>
@@ -247,7 +255,9 @@ function Trips() {
                 <p>Rp. 1.500.000 ($ 100) / Person</p>
               </div>
               <div className="card-button">
-                <button className={styles.cardButton}>Read More</button>
+                <a href="../Content_Trip/TanjungjepunTrip">
+                  <button className={styles.cardButton}>Read More</button>
+                </a>
               </div>
             </div>
           </div>
@@ -296,7 +306,9 @@ function Trips() {
                 <p>Rp. 1.500.000 ($ 100) / Person</p>
               </div>
               <div className="card-button">
-                <button className={styles.cardButton}>Read More</button>
+                <a href="../Content_Trip/BaturTrip">
+                  <button className={styles.cardButton}>Read More</button>
+                </a>
               </div>
             </div>
           </div>

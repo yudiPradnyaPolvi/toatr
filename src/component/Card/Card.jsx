@@ -59,7 +59,9 @@ const CustomCard = () => {
                 <p>Rp. 1.500.000 ($ 100) / Person</p>
               </div>
               <div className="card-button">
-                <button className={styles.cardButton}>Read More</button>
+                <a href="../Content_Trip/NusapenidaTrip">
+                  <button className={styles.cardButton}>Read More</button>
+                </a>
               </div>
             </div>
           </div>
@@ -107,7 +109,9 @@ const CustomCard = () => {
                 <p>Rp. 1.900.000 ($ 150) / Person</p>
               </div>
               <div className="card-button">
-                <button className={styles.cardButton}>Read More</button>
+                <a href="../Content_Trip/LovinaTrip">
+                  <button className={styles.cardButton}>Read More</button>
+                </a>
               </div>
             </div>
           </div>
@@ -155,7 +159,9 @@ const CustomCard = () => {
                 <p>Rp. 3.000.000 ($ 200) / Person</p>
               </div>
               <div className={styles.buttonContainer}>
-                <button className={styles.cardButton}>Read More</button>
+                <a href="../Content_Trip/WaterfallTrip">
+                  <button className={styles.cardButton}>Read More</button>
+                </a>
               </div>
             </div>
           </div>

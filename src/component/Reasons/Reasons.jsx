@@ -22,7 +22,9 @@ const Reasons = () => {
             <p>taman jimbaran</p>
           </div>
           <div className={styles.btnContainer}>
-            <button className={styles.buttonContact}>Contact Us</button>
+            <a href="../Contact">
+              <button className={styles.buttonContact}>Contact Us</button>
+            </a>
           </div>
         </div>
       </div>

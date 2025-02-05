@@ -1,0 +1,43 @@
+@use '../../index.scss' as *;
+
+.container{
+  @extend .flex-row;
+  gap: 30px;
+  margin-bottom: 20px
+}
+.contents{
+  @extend .flex-col;
+  max-width: 75%;
+  
+}
+.cards{
+  @extend .flex-col;
+  max-width: 25%;
+}
+
+.contentDesc{
+  @extend .flex-col;
+  text-align: justify;
+  padding-left: 10px;
+  padding-top: 30px;
+}
+.contentDesc h3{
+  @extend .flex-col;
+  align-self: self-start;
+  padding-left: 20px;
+  font-weight: bold;
+}
+.contentDesc button{
+  font-size: 25px;
+  align-items: center;
+  width: 200px;
+  height: 30px;
+  align-self: center;
+  border-radius: 10px;
+  margin-bottom: 0px;
+  
+}
+.btnOrder:hover{
+  background-color: $donker-blue;
+  color: white;
+}
