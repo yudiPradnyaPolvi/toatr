@@ -10,7 +10,7 @@ const Choose = () => {
           <div className={styles.containerImg}>
             <img
               className={styles.contentImg}
-              src="/public/diri.jpg"
+              src="/public/pura.png"
               alt="avatar"
             ></img>
           </div>
@@ -28,7 +28,7 @@ const Choose = () => {
           <div className={styles.containerImg}>
             <img
               className={styles.contentImg}
-              src="/public/diri.jpg"
+              src="/public/legal.png"
               alt="avatar"
             ></img>
           </div>
@@ -46,7 +46,7 @@ const Choose = () => {
           <div className={styles.containerImg}>
             <img
               className={styles.contentImg}
-              src="/public/diri.jpg"
+              src="/public/happy.png"
               alt="avatar"
             ></img>
           </div>
@@ -64,7 +64,7 @@ const Choose = () => {
           <div className={styles.containerImg}>
             <img
               className={styles.contentImg}
-              src="/public/diri.jpg"
+              src="/public/holiday.png"
               alt="avatar"
             ></img>
           </div>

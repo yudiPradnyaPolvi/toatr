@@ -1,0 +1,60 @@
+@use '../../index.scss' as *;
+
+.container{
+  @extend .flex-row;
+  gap: 30px;
+  margin-bottom: 20px
+}
+.contents{
+  @extend .flex-col;
+  max-width: 75%;
+  
+}
+.cards{
+  @extend .flex-col;
+  max-width: 25%;
+  gap: 50px;
+}
+
+.contentDesc{
+  @extend .flex-col;
+  text-align: justify;
+  padding-left: 10px;
+  padding-top: 30px;
+}
+.contentDesc h3{
+  @extend .flex-col;
+  align-self: self-start;
+  // padding-left: 20px;
+  font-weight: bold;
+}
+.btnOrder{
+  margin-top: 10px;
+  font-size: 20px;
+  align-items: center;
+  width: 200px;
+  height: 30px;
+  align-self: center;
+  border-radius: 10px;
+  margin-bottom: 0px;
+  
+}
+.btnOrder:hover{
+  background-color: $donker-blue;
+  color: white;
+}
+.logo{
+  max-width: 120px;
+  align-self: center;
+  padding-top: 0px;
+}
+.containerBlog{
+  @extend .flex-row;
+}
+.containerBlog img{
+  max-width: 100px;
+}
+.containerBlog h4{
+  font-size: 16px;
+
+}

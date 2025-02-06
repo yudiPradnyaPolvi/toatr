@@ -14,6 +14,7 @@ import NusapenidaTrip from "./component/Content_Trip/NusapenidaTrip.jsx";
 import TanjungbenoaTrip from "./component/Content_Trip/TanjungbenoaTrip.jsx";
 import TanjungjepunTrip from "./component/Content_Trip/TanjungjepunTrip.jsx";
 import WaterfallTrip from "./component/Content_Trip/WaterfallTrip.jsx";
+import Blog1 from "./component/Content Blog/Blog1.jsx";
 // import Awards from "./component/Awards/Awards.jsx";
 // import Certificates from "./component/Certificates/Certificates.jsx";
 // import Header from "./component/Header/Header.jsx";
@@ -30,6 +31,7 @@ const router = createBrowserRouter([
   { path: "/Content_Trip/TanjungbenoaTrip", element: <TanjungbenoaTrip /> },
   { path: "/Content_Trip/TanjungjepunTrip", element: <TanjungjepunTrip /> },
   { path: "/Content_Trip/WaterfallTrip", element: <WaterfallTrip /> },
+  { path: "/Content Blog/Blog1", element: <Blog1 /> },
   // { path: "/Certificates", element: <Certificates /> },
 ]);
 
