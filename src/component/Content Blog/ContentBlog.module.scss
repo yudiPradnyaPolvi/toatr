@@ -12,7 +12,7 @@
 }
 .cards{
   @extend .flex-col;
-  max-width: 25%;
+  max-width: 500px;
   gap: 50px;
 }
 
@@ -50,11 +50,24 @@
 }
 .containerBlog{
   @extend .flex-row;
+  // width: 400px;
 }
 .containerBlog img{
   max-width: 100px;
 }
 .containerBlog h4{
   font-size: 16px;
+  color: black;
+  text-decoration: none;
 
+}
+.linkBlog{
+  @extend .flex-row;
+  gap: 10px;
+}
+.linkBlog h4{
+ text-align: left;
+}
+a{
+  text-decoration: none;
 }

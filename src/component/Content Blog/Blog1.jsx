@@ -82,17 +82,6 @@ const Blog1 = () => {
             perfect Instagram moment, Kelingking Beach promises an unforgettable
             experience that will stay with you forever.
           </p>
-          <p>
-            So pack your camera, bring plenty of water, and set out to explore
-            this incredible gem on your next trip to Bali!
-          </p>
-        </div>
-        <div className={styles.contentDesc}>
-          <p>
-            Yuk.. segera agendakan rencana liburan anda dengan Marketing Bakta
-            Tour yang super ramah & fast respon
-          </p>
-          <button className={styles.btnOrder}>Order Now!</button>
         </div>
       </div>
 
@@ -106,39 +95,28 @@ const Blog1 = () => {
         <div className={styles.otherBlog}>
           <h2>Recent Post</h2>
           <div className={styles.containerBlog}>
-            <img src="/public/pemandangan.jpeg"></img>
-            <h4>
-              Discovering the Iconic Kelingking Beach in Nusa Penida: A Hidden
-              Gem of Bali
-            </h4>
+            <a className={styles.linkBlog} href="./Blog2">
+              <img src="/public/pemandangan.jpeg"></img>
+
+              <h4>Travel Smart: Avoiding Traffic in Bali by Starting Early</h4>
+            </a>
           </div>
           <div className={styles.containerBlog}>
-            <img src="/public/pemandangan.jpeg"></img>
-            <h4>
-              Discovering the Iconic Kelingking Beach in Nusa Penida: A Hidden
-              Gem of Bali
-            </h4>
+            <a className={styles.linkBlog} href="./Blog3">
+              <img src="/public/pemandangan.jpeg"></img>
+
+              <h4>
+                The Thrill of Riding ATV Quad Bikes in Bali During the Rainy
+                Season
+              </h4>
+            </a>
           </div>
           <div className={styles.containerBlog}>
-            <img src="/public/pemandangan.jpeg"></img>
-            <h4>
-              Discovering the Iconic Kelingking Beach in Nusa Penida: A Hidden
-              Gem of Bali
-            </h4>
-          </div>
-          <div className={styles.containerBlog}>
-            <img src="/public/pemandangan.jpeg"></img>
-            <h4>
-              Discovering the Iconic Kelingking Beach in Nusa Penida: A Hidden
-              Gem of Bali
-            </h4>
-          </div>
-          <div className={styles.containerBlog}>
-            <img src="/public/pemandangan.jpeg"></img>
-            <h4>
-              Discovering the Iconic Kelingking Beach in Nusa Penida: A Hidden
-              Gem of Bali
-            </h4>
+            <a className={styles.linkBlog} href="./Blog4">
+              <img src="/public/pemandangan.jpeg"></img>
+
+              <h4>Exploring the Wonders of Ubud Monkey Forest Sanctuary</h4>
+            </a>
           </div>
         </div>
       </div>

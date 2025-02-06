@@ -13,14 +13,18 @@ function Blogs() {
       </div>
       <div className={styles.content}>
         <div className={styles.card}>
-          <img src="kitten.jpeg"></img>
+          <a href="../Content Blog/Blog1">
+            <img src="kitten.jpeg"></img>
+          </a>
 
           <div className={styles.cardContent}>
             <div className={styles.cardTitle}>
-              <h2>
-                Discovering the Iconic Kelingking Beach in Nusa Penida: A Hidden
-                Gem of Bali
-              </h2>
+              <a href="../Content Blog/Blog1">
+                <h2>
+                  Discovering the Iconic Kelingking Beach in Nusa Penida: A
+                  Hidden Gem of Bali
+                </h2>
+              </a>
               <div className={styles.cardDescription}>
                 <p>
                   Nestled on the southwestern coast of Nusa Penida, Kelingking
@@ -40,11 +44,17 @@ function Blogs() {
           </div>
         </div>
         <div className={styles.card}>
-          <img src="kitten.jpeg"></img>
+          <a href="../Content Blog/Blog2">
+            <img src="kitten.jpeg"></img>
+          </a>
 
           <div className={styles.cardContent}>
             <div className={styles.cardTitle}>
-              <h2>Travel Smart: Avoiding Traffic in Bali by Starting Early</h2>
+              <a href="../Content Blog/Blog2">
+                <h2>
+                  Travel Smart: Avoiding Traffic in Bali by Starting Early
+                </h2>
+              </a>
               <div className={styles.cardDescription}>
                 <p>
                   Bali, known as the “Island of the Gods,” is a paradise of
@@ -58,20 +68,25 @@ function Blogs() {
                 </p>
               </div>
               <div className="card-button">
-                <button className={styles.cardButton}>Read More</button>
+                <a href="../Content Blog/Blog2">
+                  <button className={styles.cardButton}>Read More</button>
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div className={styles.card}>
-          <img src="kitten.jpeg"></img>
-
+          <a href="../Content Blog/Blog3">
+            <img src="kitten.jpeg"></img>
+          </a>
           <div className={styles.cardContent}>
             <div className={styles.cardTitle}>
-              <h2>
-                The Thrill of Riding ATV Quad Bikes in Bali During the Rainy
-                Season
-              </h2>
+              <a href="../Content Blog/Blog3">
+                <h2>
+                  The Thrill of Riding ATV Quad Bikes in Bali During the Rainy
+                  Season
+                </h2>
+              </a>
               <div className={styles.cardDescription}>
                 <p>
                   Exploring Bali on an ATV quad bike is always an exhilarating
@@ -83,17 +98,23 @@ function Blogs() {
                 </p>
               </div>
               <div className={styles.buttonContainer}>
-                <button className={styles.cardButton}>Read More</button>
+                <a href="../Content Blog/Blog3">
+                  <button className={styles.cardButton}>Read More</button>
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div className={styles.card}>
-          <img src="kitten.jpeg"></img>
+          <a href="../Content Blog/Blog4">
+            <img src="kitten.jpeg"></img>
+          </a>
 
           <div className={styles.cardContent}>
             <div className={styles.cardTitle}>
-              <h2>Exploring the Wonders of Ubud Monkey Forest Sanctuary</h2>
+              <a href="../Content Blog/Blog4">
+                <h2>Exploring the Wonders of Ubud Monkey Forest Sanctuary</h2>
+              </a>
               <div className={styles.cardDescription}>
                 <p>
                   Nestled in the heart of Ubud, the Monkey Forest Sanctuary,
@@ -106,17 +127,23 @@ function Blogs() {
                 </p>
               </div>
               <div className="card-button">
-                <button className={styles.cardButton}>Read More</button>
+                <a href="../Content Blog/Blog4">
+                  <button className={styles.cardButton}>Read More</button>
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div className={styles.card}>
-          <img src="kitten.jpeg"></img>
+          <a href="../Content Blog/Blog5">
+            <img src="kitten.jpeg"></img>
+          </a>
 
           <div className={styles.cardContent}>
             <div className={styles.cardTitle}>
-              <h2>What is a Melukat Ceremony or Purification Ritual?</h2>
+              <a href="../Content Blog/Blog5">
+                <h2>What is a Melukat Ceremony or Purification Ritual?</h2>
+              </a>
               <div className={styles.cardDescription}>
                 <p>
                   The Melukat ceremony is a traditional Balinese Hindu
@@ -130,17 +157,24 @@ function Blogs() {
                 </p>
               </div>
               <div className="card-button">
-                <button className={styles.cardButton}>Read More</button>
+                <a href="../Content Blog/Blog5">
+                  <button className={styles.cardButton}>Read More</button>
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div className={styles.card}>
-          <img src="kitten.jpeg"></img>
-
+          <a href="../Content Blog/Blog6">
+            <img src="kitten.jpeg"></img>
+          </a>
           <div className={styles.cardContent}>
             <div className={styles.cardTitle}>
-              <h2>Lahangan Sweet: Bali’s Hidden Gem with Breathtaking Views</h2>
+              <a href="../Content Blog/Blog6">
+                <h2>
+                  Lahangan Sweet: Bali’s Hidden Gem with Breathtaking Views
+                </h2>
+              </a>
               <div className={styles.cardDescription}>
                 <p>
                   Nestled in the serene Karangasem region of East Bali, Lahangan
@@ -152,7 +186,9 @@ function Blogs() {
                 </p>
               </div>
               <div className="card-button">
-                <button className={styles.cardButton}>Read More</button>
+                <a href="../Content Blog/Blog6">
+                  <button className={styles.cardButton}>Read More</button>
+                </a>
               </div>
             </div>
           </div>
