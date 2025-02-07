@@ -17,11 +17,15 @@ const CustomCard = () => {
       </div>
       <div className={styles.content}>
         <div className={styles.card}>
-          <img src="kitten.jpeg"></img>
+          <a href="../Content_Trip/NusapenidaTrip">
+            <img src="kitten.jpeg"></img>
+          </a>
 
           <div className={styles.cardContent}>
             <div className={styles.cardTitle}>
-              <h2>Nusa Penida Tour: Mix East & West Area</h2>
+              <a href="../Content_Trip/NusapenidaTrip">
+                <h2>Nusa Penida Tour: Mix East & West Area</h2>
+              </a>
               <div className={styles.cardDescription}>
                 <p>
                   The journey begins from your hotel to Sanur Harbour and
@@ -67,11 +71,14 @@ const CustomCard = () => {
           </div>
         </div>
         <div className={styles.card}>
-          <img src="kitten.jpeg"></img>
-
+          <a href="../Content_Trip/LovinaTrip">
+            <img src="kitten.jpeg"></img>
+          </a>
           <div className={styles.cardContent}>
             <div className={styles.cardTitle}>
-              <h2>Swim with Dolphin & Snorkeling at Lovina</h2>
+              <a href="../Content_Trip/LovinaTrip">
+                <h2>Swim with Dolphin & Snorkeling at Lovina</h2>
+              </a>
               <div className={styles.cardDescription}>
                 <p>
                   North Bali offers a unique and less crowded experience
@@ -106,7 +113,7 @@ const CustomCard = () => {
                   src="/public/money.png"
                   alt="money"
                 ></img>
-                <p>Rp. 1.900.000 ($ 150) / Person</p>
+                <p>Rp. 1.500.000 ($ 100) / Person</p>
               </div>
               <div className="card-button">
                 <a href="../Content_Trip/LovinaTrip">
@@ -117,11 +124,15 @@ const CustomCard = () => {
           </div>
         </div>
         <div className={styles.card}>
-          <img src="kitten.jpeg"></img>
+          <a href="../Content_Trip/WaterfallTrip">
+            <img src="kitten.jpeg"></img>
+          </a>
 
           <div className={styles.cardContent}>
             <div className={styles.cardTitle}>
-              <h2>Junggle Waterfall in the Heart of Bali Island</h2>
+              <a href="../Content_Trip/WaterfallTrip">
+                <h2>Junggle Waterfall in the Heart of Bali Island</h2>
+              </a>
               <div className={styles.cardDescription}>
                 <p>
                   One of Bali’s hidden gems and arguably the most beautiful
@@ -156,7 +167,7 @@ const CustomCard = () => {
                   src="/public/money.png"
                   alt="money"
                 ></img>
-                <p>Rp. 3.000.000 ($ 200) / Person</p>
+                <p>Rp. 1.500.000 ($ 100) / Person</p>
               </div>
               <div className={styles.buttonContainer}>
                 <a href="../Content_Trip/WaterfallTrip">

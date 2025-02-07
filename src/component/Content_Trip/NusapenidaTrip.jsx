@@ -7,7 +7,7 @@ const NusapenidaTrip = () => {
     <div className={styles.container}>
       <div className={styles.contents}>
         <div className={styles.contentTitle}>
-          <h1>Title</h1>
+        <h1>Nusa Penida Tour: Mix East & West Area</h1>
           <img src="/pemandangan.jpeg" alt="Scenic View" />
         </div>
         <div className={styles.contentDesc}>
@@ -92,7 +92,6 @@ const NusapenidaTrip = () => {
         <button className={styles.btnOrder}>Order Now!</button>
       </div>
     </div>
-    
   );
 };
 

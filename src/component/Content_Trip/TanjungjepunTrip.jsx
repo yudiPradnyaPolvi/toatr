@@ -7,7 +7,7 @@ const TanjungjepunTrip = () => {
     <div className={styles.container}>
       <div className={styles.contents}>
         <div className={styles.contentTitle}>
-          <h1>Title</h1>
+          <h1>Snorkeling at Blue Lagoon & Tanjung Jepun</h1>
           <img src="/pemandangan.jpeg" alt="Scenic View" />
         </div>
         <div className={styles.contentDesc}>

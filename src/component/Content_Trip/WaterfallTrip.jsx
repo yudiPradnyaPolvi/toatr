@@ -7,7 +7,7 @@ const WaterfallTrip = () => {
     <div className={styles.container}>
       <div className={styles.contents}>
         <div className={styles.contentTitle}>
-          <h1>Title</h1>
+          <h1>Junggle Waterfall in the Heart of Bali Island</h1>
           <img src="/pemandangan.jpeg" alt="Scenic View" />
         </div>
         <div className={styles.contentDesc}>

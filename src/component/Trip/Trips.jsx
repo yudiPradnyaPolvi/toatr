@@ -10,11 +10,15 @@ function Trips() {
       </div>
       <div className={styles.content}>
         <div className={styles.card}>
-          <img src="kitten.jpeg"></img>
+          <a href="../Content_Trip/NusapenidaTrip">
+            <img src="kitten.jpeg"></img>
+          </a>
 
           <div className={styles.cardContent}>
             <div className={styles.cardTitle}>
-              <h2>Nusa Penida Tour: Mix East & West Area</h2>
+              <a href="../Content_Trip/NusapenidaTrip">
+                <h2>Nusa Penida Tour: Mix East & West Area</h2>
+              </a>
               <div className={styles.cardDescription}>
                 <p>
                   The journey begins from your hotel to Sanur Harbour and
@@ -60,11 +64,14 @@ function Trips() {
           </div>
         </div>
         <div className={styles.card}>
-          <img src="kitten.jpeg"></img>
-
+          <a href="../Content_Trip/LovinaTrip">
+            <img src="kitten.jpeg"></img>
+          </a>
           <div className={styles.cardContent}>
             <div className={styles.cardTitle}>
-              <h2>Swim with Dolphin & Snorkeling at Lovina</h2>
+              <a href="../Content_Trip/LovinaTrip">
+                <h2>Swim with Dolphin & Snorkeling at Lovina</h2>
+              </a>
               <div className={styles.cardDescription}>
                 <p>
                   North Bali offers a unique and less crowded experience
@@ -110,11 +117,15 @@ function Trips() {
           </div>
         </div>
         <div className={styles.card}>
-          <img src="kitten.jpeg"></img>
+          <a href="../Content_Trip/WaterfallTrip">
+            <img src="kitten.jpeg"></img>
+          </a>
 
           <div className={styles.cardContent}>
             <div className={styles.cardTitle}>
-              <h2>Junggle Waterfall in the Heart of Bali Island</h2>
+              <a href="../Content_Trip/WaterfallTrip">
+                <h2>Junggle Waterfall in the Heart of Bali Island</h2>
+              </a>
               <div className={styles.cardDescription}>
                 <p>
                   One of Bali’s hidden gems and arguably the most beautiful
@@ -160,11 +171,15 @@ function Trips() {
           </div>
         </div>
         <div className={styles.card}>
-          <img src="kitten.jpeg"></img>
+          <a href="../Content_Trip/TanjungbenoaTrip">
+            <img src="kitten.jpeg"></img>
+          </a>
 
           <div className={styles.cardContent}>
             <div className={styles.cardTitle}>
-              <h2>Awsome Ocean Watersport at Tanjung Benoa</h2>
+              <a href="../Content_Trip/TanjungbenoaTrip">
+                <h2>Awsome Ocean Watersport at Tanjung Benoa</h2>
+              </a>
               <div className={styles.cardDescription}>
                 <p>
                   Water sports in Tanjung Benoa, Nusa Dua, offer an exhilarating
@@ -211,11 +226,15 @@ function Trips() {
           </div>
         </div>
         <div className={styles.card}>
-          <img src="kitten.jpeg"></img>
+          <a href="../Content_Trip/TanjungjepunTrip">
+            <img src="kitten.jpeg"></img>
+          </a>
 
           <div className={styles.cardContent}>
             <div className={styles.cardTitle}>
-              <h2>Snorkeling at Blue Lagoon & Tanjung Jepun</h2>
+              <a href="../Content_Trip/TanjungjepunTrip">
+                <h2>Snorkeling at Blue Lagoon & Tanjung Jepun</h2>
+              </a>
               <div className={styles.cardDescription}>
                 <p>
                   Enjoy the pristine, crystal-clear waters that provide
@@ -263,11 +282,14 @@ function Trips() {
           </div>
         </div>
         <div className={styles.card}>
-          <img src="kitten.jpeg"></img>
-
+          <a href="../Content_Trip/BaturTrip">
+            <img src="kitten.jpeg"></img>
+          </a>
           <div className={styles.cardContent}>
             <div className={styles.cardTitle}>
-              <h2>Mount Batur Sunrise Trekking with Private Transfer</h2>
+              <a href="../Content_Trip/BaturTrip">
+                <h2>Mount Batur Sunrise Trekking with Private Transfer</h2>
+              </a>
               <div className={styles.cardDescription}>
                 <p>
                   Mount Batur is an active volcano located in the Kintamani

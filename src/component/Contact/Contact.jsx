@@ -28,15 +28,15 @@ function Contact() {
             </p>
           </div>
           <div className={styles.contact}>
-            <img className={styles.imgcontact} src="/public/diri.jpg"></img>
+            <img className={styles.imgcontact} src="/public/wa.png"></img>
             <p>2313131</p>
           </div>
           <div className={styles.contact}>
-            <img className={styles.imgcontact} src="/public/diri.jpg"></img>
+            <img className={styles.imgcontact} src="/public/email.png"></img>
             <p>adada@adasd.com</p>
           </div>
           <div className={styles.contact}>
-            <img className={styles.imgcontact} src="/public/diri.jpg"></img>
+            <img className={styles.imgcontact} src="/public/map.png"></img>
             <p>taman jimbaran</p>
           </div>
           <div className={styles.contactButtonContainer}>
